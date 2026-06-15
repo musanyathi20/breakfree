@@ -1,17 +1,47 @@
-# breakfree
+# BreakFree
 
-A new Flutter project.
+A modern, completely offline mobile application that helps users quit bad habits and build streaks.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Core Features
+- ✅ **Habit Tracking** - Create and track habits you want to quit
+- ✅ **Streak System** - Track current and longest streaks
+- ✅ **Money Saved Calculator** - See how much you save in Rands (ZAR)
+- ✅ **Calendar View** - Visualize your progress over time
+- ✅ **Journal Entries** - Log your thoughts and moods
+- ✅ **Relapse Tracking** - Log relapses with triggers and notes
+- ✅ **Achievements** - Unlock badges for milestone streaks
+- ✅ **Statistics Dashboard** - View comprehensive progress stats
+- ✅ **Why You Started** - Keep your motivation reasons visible
+- ✅ **Personalized Greetings** - Time-based greetings with user name
 
-A few resources to get you started if this is your first Flutter project:
+### Technical Features
+- 📱 **100% Offline** - No internet connection required
+- 🔒 **No Accounts** - All data stored locally on device
+- 🎨 **Beautiful UI** - Modern Material 3 design with purple color scheme
+- 🌙 **Dark Mode** - Full dark mode support
+- 💾 **Local Storage** - SharedPreferences for data persistence
+- 🇿🇦 **South African Rand** - Currency support for ZAR
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Add screenshots here]
+
+## Tech Stack
+
+- **Flutter** - UI framework
+- **Provider** - State management
+- **SharedPreferences** - Local storage
+- **Google Fonts** - Typography
+- **Material 3** - Design system
+
+## Installation
+
+### From Source
+
+```bash
+git clone https://github.com/YOUR_USERNAME/breakfree.git
+cd breakfree
+flutter pub get
+flutter run
